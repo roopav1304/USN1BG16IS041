@@ -27,7 +27,8 @@ console.log(name);*/
 
 //challenge-2
 
-/*function calculator(amount){
+/*var tip;
+function calculator(amount){
     if(amount<50){
         tip=0.2*amount;
         return tip;
@@ -41,12 +42,13 @@ console.log(name);*/
         return tip;
     }
 }
-bill[0]=calculator(124);
-bill[1]=calculator(48);
-bill[2]=calculator(268);
-final_amount[0]=bill[0]+124;
-final_amount[1]=bill[1]+48;
-final_amount[2]=bill[2]+268;*/
+
+var bill=[calculator(124),calculator(48),calculator(268)];
+console.log('Bill='+bill);
+var final_amount=[bill[0]+124,bill[1]+48,bill[2]+268];
+console.log('Final amount='+final_amount);
+
+*/
 
 
 var mydetails={
