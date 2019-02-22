@@ -23,6 +23,8 @@ console.log(name);
 name.unshift("h");
 name.pop();
 console.log(name);*/
+
+
 //challenge-2
 
 /*function calculator(amount){
@@ -45,6 +47,8 @@ bill[2]=calculator(268);
 final_amount[0]=bill[0]+124;
 final_amount[1]=bill[1]+48;
 final_amount[2]=bill[2]+268;*/
+
+
 var mydetails={
     fname:'Roopashree',
     lname:'V',
