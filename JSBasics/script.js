@@ -48,7 +48,7 @@ console.log('Bill='+bill);
 var final_amount=[bill[0]+124,bill[1]+48,bill[2]+268];
 console.log('Final amount='+final_amount);
 
-*/
+
 
 
 var mydetails={
@@ -73,3 +73,15 @@ a.fname='roopa';
 console.log(a);
 
 console.log('Roopa is '+mydetails.calcAge(1998)+' years old');
+*/
+var but=document.getElementById('btn');
+but.addEventListener('mouseover',changeOnMouseOver);
+but.addEventListener('mouseout',changeOnMouseOut);
+
+function changeOnMouseOver() {
+    this.style.background="blue";
+}
+
+function changeOnMouseOut() {
+    this.style.background="red";
+}
